@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notes</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Quizzes</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Welcome to Your Study App!</h1>
+            </header>
+
+            <section class="study-materials">
+                <h2>Your Study Materials</h2>
+                <ul>
+                    <li><a href="#">Math Notes</a></li>
+                    <li><a href="#">Science Notes</a></li>
+                    <li><a href="#">History Notes</a></li>
+                </ul>
+            </section>
+
+            <section class="todo">
+                <h2>To-Do List</h2>
+                <ul id="task-list">
+                    <!-- Tasks will be added here by JavaScript -->
+                </ul>
+                <input type="text" id="task-input" placeholder="Add a new task">
+                <button onclick="addTask()">Add Task</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
